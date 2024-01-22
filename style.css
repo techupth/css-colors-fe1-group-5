@@ -1,1 +1,31 @@
 /* Start coding here */
+.background {
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg,hsl(0, 100%, 70%),hsl(240, 100%, 70%));
+}
+
+.box {
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 50%, 100%, 0.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
+
